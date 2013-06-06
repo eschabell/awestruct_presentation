@@ -1,0 +1,218 @@
+---
+layout: base
+---
+
+.slides
+  %section.title(data-state="intro" )
+    .title-information
+      %h2.invert JBoss Adventures in Chicago
+      %h5
+    .title-author
+      Eric D. Schabell
+      %br
+        JBoss Technology Evangelist (Integration & BPM)
+      %a{ :href=>"http://twitter.com/ericschabell"}@ericschabell
+
+  %section(data-state="hills" )
+    %h2 Your Topics
+    :markdown
+      * What to expect with JBoss BRMS / BPM Suite v6
+      * JBoss Fuse, JBoss A-MQ, SOA-P (JBoss Fuse Service Works)
+        * how does it all fit together?
+      * If you learn only one new produt this year?
+        * is should be X and here is why...
+
+  %section.title(data-state="flowers" )
+    .title-information
+      %h2 Questions
+      %h4 or
+      %h2 Comments?
+      %h5
+    .title-author
+      Eric D. Schabell
+      %br
+        JBoss Technology Evangelist (Integration & BPM)
+      %a{ :href=>"http://twitter.com/ericschabell"}@ericschabell
+
+-#
+  %section(data-state="white-basic")
+    .title-information
+      %h2 Your Topics
+
+  %section(data-state="flowers")
+    %h2 JBOSS AS GETS A NEW NAME
+
+
+  %section
+    %section
+      %h3 JBoss AS Gets a New Name
+      %a{ :href=>"http://www.wildfly.org", :target=>"_blank"}
+        %img.clean{ :src=>"#{site.base_url}/images/wildfly_logo_600px.png"}
+
+    %section
+      %h3 Why?
+      %h5 TO REDUCE CONFUSION
+      %ul.fragment
+        %li Previously JBoss Meant:
+        %ol
+          %li.fragment A Project
+          %li.fragment A Community
+          %li.fragment A Product Line
+
+    %section
+      %h3 What Changes?
+      %ul
+        %li Project Name
+        %li IRC, Forums, Issue Tracker
+        %li Faster Release Cadence
+
+    %section
+      %h3 What Stays the Same?
+      %ul
+        %li Red Hat's Commitment to Open Source
+        %li Project Governance
+        %li Codebase, community
+        %li
+          %term JBoss
+          remains with product line
+      %br
+      %br
+      %img.clean.fragment{ :src=>"#{site.base_url}/images/rhjb-logotype.png"}
+
+    %section
+      %h3 The Process
+      %p  Community nominated names, community based election
+      %ul
+        %li 1000+ Suggestions
+        %li 5 Finalists
+        %li Over 250,000 visits to the vote page in 6 weeks
+
+    %section
+      %h3 What's New in WildFly 8?
+      %ul
+        %li Java EE 7
+        %li Much Faster
+        %ul.fragment
+          %li JPA and Hibernate Performance Improvements
+          %ul.fragment
+            %li Significant speed boosts
+            %li Expect SpecJ metrics
+          %li Undertow
+          %ul.fragment
+            %li Non-blocking web server with a Servlet implementation
+            %li Fast implementation
+            %li HTTP Upgrade Support - multiplexing
+            %li Enhanced Security Configuration
+      %aside.notes
+        Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+    %section
+      %h3 WildFly 8 implements Java EE 7
+      %ul
+        %li
+          Concurrency Utilities for Java EE 1.0
+          %bold  (New to JEE!)
+        %li Java Persistence 2.1
+        %li JAX-RS: The Java API for RESTful Web Services 2.0
+        %li Java Servlet 3.1
+        %li Java Message Service 2.0
+        %li Enterprise JavaBeans 3.2
+        %li Contexts and Dependency Injection 1.1
+        %li Bean Validation 1.1
+        %li
+          Batch Applications for the Java Platform
+          %bold (New to JEE!)
+        %li
+          Java API for JSON Processing 1.0
+          %bold (New to JEE!)
+        %li
+          Java API for WebSocket 1.0
+          %bold (New to JEE!)
+  / Example of nested vertical slides
+
+  %section(data-state="starry-night" )
+    %h2.invert  RED HAT JBOSS
+    %h3.invert  DEVELOPER PROGRAM
+  %section
+    %section
+      %h4 Red Hat JBoss Developer Program
+      %ul
+        %li
+          Allows enterprise developers to access
+          %ul
+            %li
+              Enterprise
+              %strong binaries
+              to JBoss Platforms
+            %li
+              Enterprise
+              %strong developer forums
+            %li
+              Exclusive
+              %strong Content
+              -
+              webinars, quickstarts and more
+        %li
+          Free of Charge!
+          %ul
+            %li
+              Sign up at
+              %a{ :href=>"http://www.jboss.org"}jboss.org
+        %li
+          %small
+            Focused on developers being as productive as possible at building new applications on Red Hat JBoss Middleware
+          %ul
+            %li
+              Program intended for
+              %i development purposes only.
+    %section
+      %h4 Dev Program - Benefits
+      %ul
+        %li
+          %strong Access to Enterprise Binaries
+        %ul
+          %li Build your apps on stable and certified codebase
+          %li No need to migrate your applications from Community
+        %li
+          %strong Access to Enterprise Developer Forums
+          %ul
+            %li Collaborate with Red Hat experts and other enterprise developers.
+        %li
+          %strong  Exclusive Enterprise Content
+          %ul
+            %li Quickstarts, tutorials and webinars available only to Developer Program members.
+    %section
+      %h4 Dev Program - The Fine Print
+      %ul
+        %li
+          %strong Intended for Developer Use Only
+        %ul
+          %li Obligated to purchase one or more subscriptions if used outside of local development.
+        %li
+          %strong No support or maintenance
+          %ul
+            %li Major (x.0) and Minor (6.x) releases available with a developer subscription
+            %li
+              Micro (6.1.x) and Security Errata available
+              %span{ :style=>"color:red"} only
+              to commercial subscribers.
+        %li
+          %strong Forums focused on development related topics
+          %ul
+            %li No answers for production-focused topics
+
+  %section(data-state="hills" )
+    %h2 RELEASE CYCLE CHANGES
+  %section
+    %h4 Community and Enterprise Delta
+    %img{ :src=>"#{site.base_url}/images/release-cycle.png"}
+
+  %section
+    %h2  Links
+    %ul
+      %li
+        %a{:href => "https://docspace.corp.redhat.com/groups/goldengate"} Golden Gate Docspace
+      %li
+        %a{:href => "https://docspace.corp.redhat.com/docs/DOC-142762"} Customer-Facing Slides
+      %li
+        Questions?  Email - Ray Ploski
+        %a{:href => "mailto:ray@redhat.com"} (ray@redhat.com)
