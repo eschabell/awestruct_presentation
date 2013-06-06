@@ -150,6 +150,15 @@ body {
 
 }
 
+.judcon2013 .reveal{
+
+    background-image: url("/images/judcon2013.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
 .starry-night .reveal{
 
     background-image: url("/images/starry-night.png");
