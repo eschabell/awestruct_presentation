@@ -140,6 +140,33 @@ body {
     color: white;
 }
 
+.deal .reveal{
+
+    background-image: url("/images/deal.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.curtains .reveal{
+
+    background-image: url("/images/curtains.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.light .reveal{
+
+    background-image: url("/images/light.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
 .cycling .reveal{
 
     background-image: url("/images/cycling.jpg");
@@ -149,9 +176,54 @@ body {
 
 }
 
-.hills .reveal{
+.brains .reveal{
 
-    background-image: url("/images/hills.png");
+    background-image: url("/images/brains.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.dorking .reveal{
+
+    background-image: url("/images/dorking.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.never-look .reveal{
+
+    background-image: url("/images/never-look.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.dev-heaven .reveal{
+
+    background-image: url("/images/dev-heaven.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.hammers .reveal{
+
+    background-image: url("/images/hammers.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.project-template .reveal{
+
+    background-image: url("/images/project-template.png");
     background-repeat:no-repeat;
     background-position:center center;
     background-size: cover;
@@ -161,24 +233,6 @@ body {
 .judcon2013 .reveal{
 
     background-image: url("/images/judcon2013.png");
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: cover;
-
-}
-
-.starry-night .reveal{
-
-    background-image: url("/images/starry-night.png");
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size: cover;
-
-}
-
-.flowers .reveal{
-
-    background-image: url("/images/flowers.png");
     background-repeat:no-repeat;
     background-position:center center;
     background-size: cover;
