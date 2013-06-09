@@ -203,6 +203,60 @@ body {
 
 }
 
+.webadmin .reveal{
+
+    background-image: url("/images/webadmin.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
+.instantapps .reveal{
+
+    background-image: url("/images/instantapps.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
+.jbossapp .reveal{
+
+    background-image: url("/images/jbossapp.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
+.readytocode .reveal{
+
+    background-image: url("/images/readytocode.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
+.configapp .reveal{
+
+    background-image: url("/images/configapp.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
+.createapps .reveal{
+
+    background-image: url("/images/createapps.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: auto;
+
+}
+
 .dev-heaven .reveal{
 
     background-image: url("/images/dev-heaven.png");

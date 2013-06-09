@@ -113,35 +113,73 @@ layout: judconbase
           <img src="/images/rhc.png" />
         </div>
 
-  %section(data-state="project-template" )
+  %section(data-state="judcon2013" )
+    .title-information
+    %h2 Create Domain
+    :markdown
+      * use rhc command
+        * $ rhc domain create -n mydomain
+      * use admin console
+        <div style="float: right">
+          <img src="/images/domain.png" />
+        </div>
+
+  %section(data-state="webadmin" )
+    .title-information
+
+  %section(data-state="instantapps" )
+    .title-information
+
+  %section(data-state="createapps" )
+    .title-information
+
+  %section(data-state="jbossapp" )
+    .title-information
+
+  %section(data-state="configapp" )
+    .title-information
+
+  %section(data-state="readytocode" )
     .title-information
 
   %section(data-state="judcon2013" )
-    %h2 3. Soaring High
-    %h5
+    .title-information
+    %h2 Application Details
     :markdown
       <div style="float: center">
-              <img src="/images/cloud-migration.png" />
+        <img src="/images/appdetails.png" />
       </div>
 
   %section(data-state="judcon2013" )
-    %h2 In Action: Customer Evaluation Demo
-    %h5
+    .title-information
+    %h2 Other Options
     :markdown
-      <div style="float: center">
-              <img src="/images/customer-eval.png" />
+      * name app and define type
+        * $ rhc app create -a $appname -t $apptype
+        * (Node.js, DIY, Jenkins, PHP, Ruby, Python, Perl and most important, Java!)
+        <div style="float: right">
+          <img width="500" src="/images/jbdsopenshift.png" />
+        </div>
+      * Add application to local repo
+        * $ git add .
+      * Commit changes
+        * $ git commit -m "Initial app import."
+
+  %section(data-state="judcon2013" )
+    .title-information
+    %h2 Deply to Cloud
+    :markdown
+      * Push the code
+        * $ git push
+      * Congratulations, your app is in the cloud!
+      <div style="float: right">
+        <img width="700" height="550" src="/images/pushedapp.png" />
       </div>
 
-  %section(data-state="judcon2013" )
-    %h2 In Action: Many More...
-    %h5
-    :markdown
-      * Rewards Demo - JBoss BPM human tasks integration
-      * Home Loan Demo - JBoss BPM / Rules / JBoss SOA
-      * Cool Store Demo - JBoss BPM / CEP / Rules / Shopping Cart
-      * Car Insurance Demo - JBoss BRMS / BPM / Insurance
+
 
   %section(data-state="judcon2013" )
+    .title-information
     :markdown
       <div style="float: left">
         <img height="100" width="700" src="/images/references.jpg" />
