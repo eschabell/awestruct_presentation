@@ -248,6 +248,33 @@ body {
 
 }
 
+.easypeasy .reveal{
+
+    background-image: url("/images/easypeasy.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+
+.buzz .reveal{
+
+    background-image: url("/images/buzz.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
+.gears .reveal{
+
+    background-image: url("/images/gears.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
 .createapps .reveal{
 
     background-image: url("/images/createapps.png");
