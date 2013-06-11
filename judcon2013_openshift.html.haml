@@ -192,7 +192,7 @@ layout: judconbase
 
   %section(data-state="judcon2013" )
     .title-information
-    %h2 JUDCon Mobile App Demo
+    %h3 JUDCon Mobile App Demo
     :markdown
       * $ rhc app create -a judcon -t jbossas-7
       * $ cd judcon
@@ -206,29 +206,27 @@ layout: judconbase
 
   %section(data-state="judcon2013" )
     .title-information
-    %h2 jBPM Migration Project Demo
+    %h3 jBPM Migration Project Demo
     :markdown
       * $ rhc app create -a jbpmmigration -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git
       * http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.4
       <div style="float: right">
         <img src="/images/jbpmmigration.png" />
       </div>
-      * todo image
 
   %section(data-state="judcon2013" )
     .title-information
-    %h2 Opta Planner Demo
+    %h3 Drools (Opta) Planner Demo
     :markdown
       * $ rhc app create -a droolsplanner -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-droolsplanner.git
       * http://droolsplanner-$your_domain.rhcloud.com/droolsplanner
       <div style="float: right">
-        <img src="/images/droolsplanner.png" />
+        <img width="400" height="100" src="/images/optaPlannerLogo.png" />
       </div>
-      * todo image
 
   %section(data-state="judcon2013" )
     .title-information
-    %h2 Preview: JBoss BPM v6 Process Designer
+    %h3 JBoss BPM v6 Process Designer
     :markdown
       * $ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-bpm-process-designer.git designer
       * http://designer-$your_domain.rhcloud.com ( u: erics / p: erics )
