@@ -181,7 +181,7 @@ body {
     background-image: url("/images/brains.jpg");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -190,7 +190,7 @@ body {
     background-image: url("/images/dorking.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -199,7 +199,7 @@ body {
     background-image: url("/images/never-look.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -208,7 +208,7 @@ body {
     background-image: url("/images/webadmin.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -217,7 +217,7 @@ body {
     background-image: url("/images/instantapps.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -226,7 +226,7 @@ body {
     background-image: url("/images/featuredapp.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -235,7 +235,7 @@ body {
     background-image: url("/images/jbossapp.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -244,7 +244,7 @@ body {
     background-image: url("/images/readytocode.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -253,7 +253,7 @@ body {
     background-image: url("/images/configapp.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -262,7 +262,7 @@ body {
     background-image: url("/images/easypeasy.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -289,7 +289,7 @@ body {
     background-image: url("/images/createapps.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 
@@ -298,7 +298,7 @@ body {
     background-image: url("/images/dev-heaven.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -307,7 +307,7 @@ body {
     background-image: url("/images/hammers.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 
@@ -325,7 +325,7 @@ body {
     background-image: url("/images/goto2013.png");
     background-repeat:no-repeat;
     background-position:center center;
-    background-size: auto;
+    background-size: contain;
 
 }
 

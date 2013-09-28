@@ -171,7 +171,7 @@ layout: gotobase
     .title-information
     %h3 GOTO 2013 Mobile App Demo
     :markdown
-      * $ rhc app create -a judcon -t jbosseap-6
+      * $ rhc app create -t jbosseap-6 goto
       * $ cd goto
       * $ git remote add upstream -m master git://github.com/eschabell/openshift-goto.git
       * $ git pull -s recursive -X theirs upstream master
@@ -185,20 +185,43 @@ layout: gotobase
     .title-information
     %h3 jBPM Migration Project Demo
     :markdown
-      * $ rhc app create -a jbpmmigration -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git
-      * http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.4
+      * $ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-jbpmmigration.git jbpmmigration
+      * http://jbpmmigration-$your_domain.rhcloud.com/jbpmmigration_upload-0.5
       <div style="float: right">
         <img src="/images/jbpmmigration.png" />
       </div>
 
   %section(data-state="" )
     .title-information
+    %h3 Host Awestruct Presentations
+    :markdown
+      * $ rhc app create -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git presos
+      * http://presos-$your_domain.rhcloud.com
+      <div style="float: right">
+        <img src="/images/presos.png" />
+      </div>
+
+  %section(data-state="" )
+    .title-information
     %h3 Drools (Opta) Planner Demo
     :markdown
-      * $ rhc app create -a droolsplanner -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-droolsplanner.git
+      * $ rhc app create -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-droolsplanner.git droolsplanner
       * http://droolsplanner-$your_domain.rhcloud.com/droolsplanner
       <div style="float: right">
         <img width="400" height="100" src="/images/optaPlannerLogo.png" />
+      </div>
+
+  %section(data-state="" )
+    .title-information
+    %h3 Business Activity Monitoring
+    :markdown
+      * $ rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-bpm-bam-dashboard.git bam
+      * Setup user login:
+        * $ rhc app show bam
+        * $ scp bampreview/.openshift/config/bam-*.properties xxxxxxxxxx@bam-inthe.rhcloud.com:~/jbossas/standalone/configuration/
+      * http://bam-$your_domain.rhcloud.com  (u:erics/p:erics)
+      <div style="float: right">
+        <img width="400" height="150" src="/images/bam.png" />
       </div>
 
   %section(data-state="" )
