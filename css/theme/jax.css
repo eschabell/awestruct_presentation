@@ -320,6 +320,15 @@ body {
 
 }
 
+.coffee .reveal{
+
+    background-image: url("/images/coffeebreak.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
 .jaxlondon .reveal{
 
     background-image: url("/images/jaxlondon.png");

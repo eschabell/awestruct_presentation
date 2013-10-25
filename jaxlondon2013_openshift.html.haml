@@ -18,6 +18,21 @@ layout: jaxbase
 
   %section(data-state="" )
     .title-information
+    %h2 Workshop agenda
+    :markdown
+      * First hour
+        * Taking the tour
+        * Demos
+      * Second hour
+        * Installation of tooling
+        * OpenShift web console
+      * Final hour
+        * OpenShift command line
+        * Quick starts
+        * Homework
+
+  %section(data-state="" )
+    .title-information
     %h2 A Little History
     :markdown
       * Nov 2010: Makara acquired
@@ -237,7 +252,7 @@ layout: jaxbase
   %section(data-state="buzz" )
     .title-information
 
-  %section(data-state="judcon2013" )
+  %section(data-state="" )
     .title-information
     %h3 Loving Your Hammers?
     :markdown
@@ -245,7 +260,82 @@ layout: jaxbase
         <img src="/images/loving.png" />
       </div>
 
-  %section(data-state="judcon2013" )
+  %section(data-state="coffee" )
+    .title-information
+
+  %section(data-state="" )
+    .title-information
+    %h2 Second hour
+    :markdown
+      * Installation of tooling
+      * Hello OpenShift
+      * OpenShift web console
+
+  %section(data-state="" )
+    .title-information
+    %h2 Linux / Mac OS X install
+    :markdown
+      * Require Ruby & GIT installation.
+      * Use shell to install RHC
+        * $ sudo gem install rhc
+        * will prompt for ssh keys, namespace, username
+
+  %section(data-state="" )
+    .title-information
+    %h2 Windows install (part I)
+    :markdown
+      * RubyInstaller 1.9 required (rubyinstaller.org/downloads)
+        * during install accept defaults
+        * mandatory to select the "Add Ruby executables to your PATH" check box
+          * allows to run CLI Ruby
+        * test Ruby install
+          * C:\Program Files\> ruby -e 'puts "Welcome to Ruby"'
+            * should print "Welcome to Ruby", otherwise reinstall
+
+  %section(data-state="" )
+    .title-information
+    %h2 Windows install (part II)
+    :markdown
+      * Git for Windows required (msysgit.github.com)
+        * ensure git added to PATH
+          * C:\Program Files\> git --version
+          * should print git version, otherwise add to PATH
+
+  %section(data-state="" )
+    .title-information
+    %h2 Windows install (part III)
+    :markdown
+      * Install OpenShift Gem
+        * C:\Program Files\> gem install rhc
+      * Verify installation
+        * C:\Program Files\> rhc
+        * starts setup wizard
+
+  %section(data-state="" )
+    .title-information
+    %h2 Hello OpenShift
+    :markdown
+      * TODO
+
+  %section(data-state="" )
+    .title-information
+    %h2 Web Console
+    :markdown
+      * TODO
+
+
+  %section(data-state="coffee" )
+    .title-information
+
+  %section(data-state="" )
+    .title-information
+    %h2 Final hour
+    :markdown
+      * OpenShift command line
+      * Quick starts
+      * Homework
+
+  %section(data-state="" )
     .title-information
     :markdown
       <div style="float: left">
@@ -256,4 +346,3 @@ layout: jaxbase
       * <font size="5">__Repository for all OpenShift demos shown here__ - [_https://github.com/eschabell_] (https://github.com/eschabell)</font>
       * <font size="5">__OpenShift demo repository__ - [_https://github.com/openshift_] (https://github.com/openshift)</font>
       * <font size="5">__Rise above the Cloud hype with OpenShift__ - [_http://www.schabell.org/2012/12/openshift-primer-book-published-amazon-ibooks.html_] (http://www.schabell.org/2012/12/openshift-primer-book-published-amazon-ibooks.html)</font>
-
