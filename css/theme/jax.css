@@ -329,7 +329,7 @@ body {
 
 }
 
-.jaxlondon .reveal{
+.default .reveal{
 
     background-image: url("/images/jaxlondon.png");
     background-repeat:no-repeat;
@@ -338,7 +338,7 @@ body {
 
 }
 
-.jaxlondon-title .reveal{
+.title .reveal{
 
     background-image: url("/images/jaxlondon-title.png");
     background-repeat:no-repeat;
