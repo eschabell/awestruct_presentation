@@ -6,22 +6,22 @@ layout: jaxbase
   %section(data-state="title" )
     %h2
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Workshop agenda
     :markdown
       * First hour
-        * Taking the tour
-        * Demos
+        * Taking the OpenShift tour
       * Second hour
         * Installation of tooling
+        * Hello OpenShift
         * OpenShift web console
       * Final hour
-        * OpenShift command line
-        * Quick starts
-        * Homework
+        * OpenShift tips & tricks
+        * Java tooling
+        * Homework - advanced Java quickstarts
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 A Little History
     :markdown
@@ -34,7 +34,7 @@ layout: jaxbase
       * June 2013: Online Public PaaS / Enterprise Private PaaS
       * Sep 2013: JBoss xPaaS Services for OpenShift
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 An OpenShift Primer
     :markdown
@@ -58,7 +58,7 @@ layout: jaxbase
   %section(data-state="dorking" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Quickstart
     :markdown
@@ -68,7 +68,7 @@ layout: jaxbase
       4. Create application
       5. Deploy application (GIT)
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Sign up, it's free!
     :markdown
@@ -83,7 +83,7 @@ layout: jaxbase
         * forums
         * email openshift@redhat
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Install Client Tools
     :markdown
@@ -98,7 +98,7 @@ layout: jaxbase
           <img src="/images/rhc.png" />
         </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Create Domain
     :markdown
@@ -124,7 +124,7 @@ layout: jaxbase
   %section(data-state="readytocode" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Application Details
     :markdown
@@ -132,7 +132,7 @@ layout: jaxbase
         <img src="/images/appdetails.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Other Options
     :markdown
@@ -147,7 +147,7 @@ layout: jaxbase
       * Commit changes
         * $ git commit -m "Initial app import."
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Deply to Cloud
     :markdown
@@ -164,7 +164,7 @@ layout: jaxbase
   %section(data-state="gears" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 JBoss Developer Studio
     :markdown
@@ -172,16 +172,16 @@ layout: jaxbase
         <img src="/images/jbdsdetails.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Advanced Quickstarts
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 JAX London 2013 Mobile App Demo
     :markdown
       * $ rhc app create -t jbosseap-6 jaxlondon
-      * $ cd goto
+      * $ cd jaxlondon
       * $ git remote add upstream -m master git://github.com/eschabell/openshift-jaxlondon.git
       * $ git pull -s recursive -X theirs upstream master
       * $ git push
@@ -190,7 +190,7 @@ layout: jaxbase
       </div>
       * http://jaxlondon-$your_domain.rhcloud.com
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 Host Awestruct Presentations
     :markdown
@@ -203,7 +203,7 @@ layout: jaxbase
   %section(data-state="buzz" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 Loving Your Hammers?
     :markdown
@@ -214,7 +214,7 @@ layout: jaxbase
   %section(data-state="coffee" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Second hour labs
     :markdown
@@ -222,7 +222,7 @@ layout: jaxbase
       * Hello OpenShift
       * OpenShift web console
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Intermezzo
     :markdown
@@ -231,12 +231,12 @@ layout: jaxbase
         * APPNAME, NAMESPACE, & DOMAIN (rhcloud.com)
         * http://$APPNAME-$NAMESPACE.rhcloud.com
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Lab 1
     %h3 get rhc tooling installed
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Linux / Mac OS X install
     :markdown
@@ -245,19 +245,19 @@ layout: jaxbase
         * $ sudo gem install rhc
         * will prompt for ssh keys, namespace, username
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Windows install (1/3)
     :markdown
       * RubyInstaller 1.9 required (rubyinstaller.org/downloads)
-        * during install accept defaults
+        * during install accept s
         * mandatory to select the "Add Ruby executables to your PATH" check box
           * allows to run CLI Ruby
         * test Ruby install
           * C:\Program Files\> ruby -e 'puts "Welcome to Ruby"'
             * should print "Welcome to Ruby", otherwise reinstall
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Windows install (2/3)
     :markdown
@@ -266,7 +266,7 @@ layout: jaxbase
           * C:\Program Files\> git --version
           * should print git version, otherwise add to PATH
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Windows install (3/3)
     :markdown
@@ -276,12 +276,12 @@ layout: jaxbase
         * C:\Program Files\> rhc
         * starts setup wizard
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 2
     %h3 become familiar with Openshift CLI
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Hello OpenShift
     :markdown
@@ -296,12 +296,12 @@ layout: jaxbase
         * $ git push
       * view application changes: http://myphp-$domain.rhcloud.com
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 3
     %h3 become familiar with Web Console
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 OpenShift Console sign up!
     :markdown
@@ -310,27 +310,27 @@ layout: jaxbase
         <img height="430" width="500" src="/images/sign-up.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Web Console
     :markdown
       * This is a free form lab so poke around the console and you'll see it provides a nice way to manage your applications and account.
       * Try Lab 4 from console.
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 4
     %h3 create a Wordpress blog site hosted on OpenShift
     :markdown
       [download Wordpress] (http://presos-onthe.rhcloud.com/wordpress-3.5.1.zip) for this lab
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Wordpress blog (1/3)
     :markdown
       * create an OpenShift php-5.3 application
       * add a mysql cartridge.
-        * $ rhc app create php-5.3 wordpress
+        * $ rhc app create -t php-5.3 wordpress
         * $ rhc cartridge add -a blog -c mysql -p password
           * Note: save the MYSQL admin login and password!
       * cd to the app's php dir, get a copy of the wordpress software.
@@ -340,17 +340,17 @@ layout: jaxbase
         * $ cd wordpress
         * $ cp wp-config-sample.php wp-config.php
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Wordpress blog (2/3)
     :markdown
       * Edit wp-config.php and make the following changes:
-        * define('DB_NAME', $_ENV['OPENSHIFT_APP_NAME']);
-        * define('DB_USER', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']);
-        * define('DB_PASSWORD', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);
-        * define('DB_HOST', $_ENV['OPENSHIFT_MYSQL_DB_HOST'] . ':' . $_ENV['OPENSHIFT_MYSQL_DB_PORT']);
+        * `define('DB_NAME', $_ENV['OPENSHIFT_APP_NAME']);`
+        * `define('DB_USER', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']);`
+        * `define('DB_PASSWORD', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);`
+        * `define('DB_HOST', $_ENV['OPENSHIFT_MYSQL_DB_HOST'] . ':' . $_ENV['OPENSHIFT_MYSQL_DB_PORT']);`
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Wordpress blog (3/3)
     :markdown
@@ -366,7 +366,7 @@ layout: jaxbase
   %section(data-state="coffee" )
     .title-information
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Final hour
     :markdown
@@ -374,26 +374,26 @@ layout: jaxbase
       * Java tooling
       * Homework - advanced Java quickstarts
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 5
     %h3 learn where to setup OpenShift configuration
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Tips & Tricks - express.conf
     :markdown
       * Located in your home directory, look for .openshift/express.conf
       * can adjust or set variables:
-        * default_rhlogin - helpful for multiple logins
+        * _rhlogin - helpful for multiple logins
         * libra_server - point to your private or public cloud
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 6
     %h3 explore your OpenShift gear
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h2 Tips & Tricks - ssh scavenger hunt
     :markdown
@@ -406,12 +406,12 @@ layout: jaxbase
       * Stop your app and check the memory usage (hint: ctl_app graceful-stop)
       * Restart your app (hint: ctl_app start)
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 7
     %h3 create & deploy app with JBDS
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 JBDS & OpenShift (1/2)
     :markdown
@@ -422,7 +422,7 @@ layout: jaxbase
         * Link the two together
         * Publish (push) your application to OpenShift
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 JBDS & OpenShift (2/2)
     :markdown
@@ -436,12 +436,12 @@ layout: jaxbase
         * The first publish will take some time for the maven artifacts to be downloaded.
         * Now make some changes to the app and republish
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h1 Lab 8
     %h3 homework - advanced Java quickstarts
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 jBPM Migration Project Demo
     :markdown
@@ -451,7 +451,7 @@ layout: jaxbase
         <img src="/images/jbpmmigration.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 Drools (Opta) Planner Demo
     :markdown
@@ -461,7 +461,7 @@ layout: jaxbase
         <img width="400" height="100" src="/images/optaPlannerLogo.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 Business Activity Monitoring
     :markdown
@@ -474,7 +474,7 @@ layout: jaxbase
         <img width="400" height="150" src="/images/bam.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     %h3 JBoss BPM v6 Process Designer
     :markdown
@@ -484,7 +484,7 @@ layout: jaxbase
         <img width="900" src="/images/designer.png" />
       </div>
 
-  %section(data-state="default" )
+  %section(data-state="" )
     .title-information
     :markdown
       <div style="float: left">
