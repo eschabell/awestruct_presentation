@@ -212,6 +212,15 @@ body {
 
 }
 
+.cartridges .reveal{
+
+    background-image: url("/images/cartridges.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
 .instantapps .reveal{
 
     background-image: url("/images/instantapps.png");
@@ -242,6 +251,24 @@ body {
 .readytocode .reveal{
 
     background-image: url("/images/readytocode.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
+.devoxxapp .reveal{
+
+    background-image: url("/images/devoxxapp.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: contain;
+
+}
+
+.workshop .reveal{
+
+    background-image: url("/images/workshop.png");
     background-repeat:no-repeat;
     background-position:center center;
     background-size: contain;

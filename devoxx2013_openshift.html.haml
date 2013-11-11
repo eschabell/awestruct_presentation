@@ -35,10 +35,9 @@ layout: devoxxbase
       * In 2011: merged into OpenShift project
       * May 2012: Open Sourced
         * GitHub, liveCD, blogs, howto's, quickstarts, webinars
-      * June 2012: OpenShift State of the Union
       * Dec 2012: OpenShift Primer (e-book)
-      * June 2013: Online Public PaaS / Enterprise Private PaaS
-      * Sep 2013: JBoss xPaaS Services for OpenShift
+      * 2013: Online Public PaaS / Enterprise Private PaaS / xPaaS Services
+        * Events - SINJUG, GOTO Aarhus, JAX London, JUDCon Boston
 
 
   %section(data-state="" )
@@ -117,6 +116,14 @@ layout: devoxxbase
 
   %section(data-state="" )
     .title-information
+    %h2 Cartridge additions
+    :markdown
+      <div style="float: center">
+        <img src="/images/cartridges.png" />
+      </div>
+
+  %section(data-state="" )
+    .title-information
     %h2 Other Options
     :markdown
       * name app and define type
@@ -173,13 +180,16 @@ layout: devoxxbase
       </div>
       * `http://devoxx-$your_domain.rhcloud.com`
 
+  %section(data-state="devoxxapp" )
+    .title-information
+
   %section(data-state="" )
     .title-information
     %h3 Host Awestruct Presentations
     :markdown
       * $ rhc app create -t ruby-1.9 --from-code git://github.com/eschabell/openshift-presos-awstruct.git presos
       * `http://presos-$your_domain.rhcloud.com`
-      <div style="float: right">
+      <div style="float: center">
         <img src="/images/presos.png" />
       </div>
 
@@ -238,6 +248,16 @@ layout: devoxxbase
       * `http://designer-$your_domain.rhcloud.com ( u: erics / p: erics )`
       <div style="float: right">
         <img width="900" src="/images/designer.png" />
+      </div>
+
+  %section(data-state="" )
+    .title-information
+    %h3 OpenShift Primer Workshop
+    :markdown
+      * $ rhc app create -t ruby-1.9 --from-code=https://github.com/eschabell/jaxlondon-2013-workshop.git jaxlondon2013
+      * `http://jaxlondon2013-$your_domain.rhcloud.com`
+      <div style="float: right">
+        <img width="900" src="/images/workshop.png" />
       </div>
 
   %section(data-state="" )
